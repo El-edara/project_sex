@@ -12,7 +12,7 @@ const PeopleToFollow = () => {
       <h3 className="font-semibold text-lg mb-4">People to follow</h3>
       <div className="space-y-4">
         {peopleToFollow.map((person, index) => (
-          <UserCard key={index} person={person} />
+          <UserCard key={index} person={person} index={index} />
         ))}
       </div>
     </div>
